@@ -22,10 +22,10 @@ const Footer = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="flex flex-col md:flex-row items-center gap-6 text-gray-300 text-sm">
+        <div className="grid grid-cols-3 lg:flex lg:flex-row items-center gap-6 text-gray-300 text-sm">
           {footerLinks.map((link , index) => (
             // eslint-disable-next-line react/jsx-key
-            <button key={index} className="hover:text-white transition-all duration-300" onClick={() => {
+            <button key={index} className=" hover:text-white transition-all duration-300" onClick={() => {
               const target = document.querySelector(link.target) as HTMLElement; ;
               if (target && lenis) {
                 lenis.scrollTo(target);

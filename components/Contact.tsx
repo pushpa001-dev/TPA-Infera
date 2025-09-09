@@ -8,7 +8,7 @@ const Contact = () => {
       className="relative w-full bg-white text-black py-20 px-6 lg:px-16"
     >
       {/* Section Heading */}
-      <div className="text-center max-w-2xl mx-auto mb-16">
+      <div className=" max-w-2xl mx-auto mb-16">
         <h2 className="text-4xl md:text-5xl font-raleway mb-4">
           Get in Touch
         </h2>
@@ -22,18 +22,18 @@ const Contact = () => {
       <div className="grid gap-12 md:grid-cols-2 max-w-6xl mx-auto">
         {/* Left Side - Contact Details */}
         <div className="flex flex-col justify-center space-y-6">
-          <h3 className="text-2xl xl:text-4xl font-raleway text-center sm:text-start">Contact Information</h3>
-          <p className="text-gray-700 text-center sm:text-start">
+          <h3 className="text-2xl xl:text-4xl font-raleway text-start">Contact Information</h3>
+          <p className="text-gray-700 text-start">
             We’d love to hear from you! Reach out using the details below.
           </p>
 
-          <div className="space-y-4 flex flex-col items-center justify-center sm:items-start text-center sm:text-start">
+          <div className="space-y-4 grid grid-cols-2 flex-col items-center justify-center sm:items-start text-start sm:text-start">
             {/* Email */}
             <div>
               <h4 className="text-lg font-medium">Email</h4>
               <a
                 href="mailto:tpa.infera@gmail.com"
-                className="text-gray-800 hover:underline"
+                className="text-gray-800/50 hover:underline"
               >
                 tpainfera@gmail.com
               </a>
@@ -44,7 +44,7 @@ const Contact = () => {
               <h4 className="text-lg font-medium">Phone</h4>
               <a
                 href="tel:+919392047174"
-                className="text-gray-800 hover:underline"
+                className="text-gray-800/50 hover:underline"
               >
                 +91 93920 47174
               </a>
@@ -58,7 +58,7 @@ const Contact = () => {
                   href="https://www.instagram.com/tpa_infera_049/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-gray-600 transition"
+                  className="text-black/50 hover:text-gray-600 transition"
                 >
                   Instagram
                 </a>
@@ -66,7 +66,7 @@ const Contact = () => {
                   href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-gray-600 transition"
+                  className="text-black/50 hover:text-gray-600 transition"
                 >
                   LinkedIn
                 </a>
@@ -74,7 +74,7 @@ const Contact = () => {
                   href="https://github.com/pushpa001-dev"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-gray-600 transition"
+                  className="text-black/50 hover:text-gray-600 transition"
                 >
                   GitHub
                 </a>

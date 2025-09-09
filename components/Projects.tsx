@@ -32,7 +32,7 @@ const Card = ({ title, discription, image, link }: CardProps) => {
           {discription}
         </p>
       </div>
-      <div className="w-full h-full absolute right-0 bottom-0 bg-neutral-900/20 opacity-100 group-hover:opacity-0 group-hover:h-0 transition-all duration-500" />
+      <div className=" hidden 2xl:flex w-full h-full absolute right-0 bottom-0 bg-neutral-900/20 opacity-100 group-hover:opacity-0 group-hover:h-0 transition-all duration-500" />
     </Link>
   );
 };
@@ -54,7 +54,7 @@ const Projects = () => {
           />
         ))}
       </div>
-      <div className="absolute w-full h-full bg-neutral-900 z-[-20]" />
+      <div className=" flex absolute w-full h-full bg-neutral-900 z-[-20]" />
       <div className="w-full h-full flex items-center justify-center absolute z-[-1] opacity-2">
         <Image
           src={"/projects_bg.png"}
