@@ -166,3 +166,34 @@ export const pricingPlans: PricingPlan[] = [
     buttonText: "Contact Us",
   },
 ];
+export interface FooterLink {
+  label: string;
+  target: string;
+}
+
+export const footerLinks: FooterLink[] = [
+  {
+    label: "Home",
+    target: "#home",
+  },
+  {
+    label: "About",
+    target: "#about",
+  },
+  {
+    label: "Services",
+    target: "#services",
+  },
+  {
+    label: "Workflow",
+    target: "#workflow",
+  },
+  {
+    label: "Pricing",
+    target: "#pricing",
+  },
+  {
+    label: "Contact",
+    target: "#contact",
+  },
+];

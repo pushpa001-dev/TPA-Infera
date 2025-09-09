@@ -78,7 +78,7 @@ const WorkflowStep = ({ id }: StepsProps) => {
 };
 const Workflow = () => {
   return (
-    <section className="  w-full h-full flex flex-col items-center justify-center px-2 lg:px-10 2xl:px-20 py-10 gap-10 lg:py-20">
+    <section id="workflow" className="  w-full h-full flex flex-col items-center justify-center px-2 lg:px-10 2xl:px-20 py-10 gap-10 lg:py-20">
       <div className="w-full h-full items-center justify-center flex flex-col gap-5 md:gap-10 2xl:gap-20">
         <h1 className="text-neutral-900 text-3xl sm:text-4xl 2xl:text-6xl font-raleway text-center">
           From Idea to Launch

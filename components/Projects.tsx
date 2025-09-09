@@ -38,7 +38,7 @@ const Card = ({ title, discription, image, link }: CardProps) => {
 };
 const Projects = () => {
   return (
-    <section className="relative flex flex-col items-center justify-center w-full h-full px-3 lg:px-20 2xl:px-30 py-10 lg:py-20  gap-10 xl:gap-20">
+    <section id="projects" className="relative flex flex-col items-center justify-center w-full h-full px-3 lg:px-20 2xl:px-30 py-10 lg:py-20  gap-10 xl:gap-20">
       <h1 className="text-white text-3xl lg:text-5xl xl:text-6xl font-raleway text-center">
         {" "}
         See Our Work{" "}

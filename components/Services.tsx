@@ -8,7 +8,7 @@ interface CardProps {
 }
 const Card = ({ title, icons, content }: CardProps) => {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center gap-5 2xl:gap-10 shadow-lg/20 p-3 2xl:px-10 rounded-lg hover:scale-102 transition-all duration-400">
+    <div  className="w-full h-full flex flex-col items-center justify-center gap-5 2xl:gap-10 shadow-lg/20 p-3 2xl:px-10 rounded-lg hover:scale-102 transition-all duration-400">
       <div className="bg-black p-3 lg:p-5 rounded-full">
         <Image
           src={icons}
@@ -30,7 +30,7 @@ const Card = ({ title, icons, content }: CardProps) => {
 };
 const Services = () => {
   return (
-    <section className="w-full h-full flex flex-col items-center justify-center py-10 lg:py-20 px-5">
+    <section id="services" className="w-full h-full flex flex-col items-center justify-center py-10 lg:py-20 px-5">
       <h1 className="text-neutral-900 text-3xl sm:text-4xl 2xl:text-6xl font-raleway  text-center">
         Our Services
       </h1>

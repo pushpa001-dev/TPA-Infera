@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const About = () => {
   return (
-    <section className="w-full h-full px-3 lg:px-20 2xl:px-30 py-10 lg:py-20 bg-neutral-900 flex flex-col sm:flex-row items-center justify-center gap-10">
+    <section id="about" className="w-full h-full px-3 lg:px-20 2xl:px-30 py-10 lg:py-20 bg-neutral-900 flex flex-col sm:flex-row items-center justify-center gap-10">
       <div className="w-full h-full text-white gap-10 flex flex-col">
         <h1 className="text-white text-3xl lg:text-5xl xl:text-6xl font-bold text-center lg:text-start">
           About TPA-Infera
