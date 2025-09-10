@@ -41,7 +41,7 @@ const HeroTitle = () => {
   return (
     <section
       id="home"
-      className="relative h-screen w-full  flex justify-center items-center min-h-screen flex-col lg:flex-row xl:flex-row  overflow-hidden px-10 xl:px-20 py-10 lg:py-20"
+      className="relative h-screen w-full  flex justify-center items-center flex-col lg:flex-row xl:flex-row  overflow-hidden px-10 xl:px-20 py-10 lg:py-20"
     >
       <div
         id="title"
